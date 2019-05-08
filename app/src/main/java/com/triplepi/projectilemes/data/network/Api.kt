@@ -1,11 +1,11 @@
 package com.triplepi.projectilemes.data.network
 
-import com.triplepi.projectilemes.data.network.dto.AdjustmentBaseIM
+import com.triplepi.projectilemes.data.network.dto.*
 import com.triplepi.projectilemes.data.network.dto.OrderIM
-import com.triplepi.projectilemes.data.network.dto.ProblemDTO
-import com.triplepi.projectilemes.data.network.dto.ProductDto
 import io.swagger.client.models.*
+import kotlinx.coroutines.Deferred
 import retrofit2.Call
+import retrofit2.Response
 import retrofit2.http.*
 
 interface Api {
@@ -83,6 +83,8 @@ interface Api {
     fun postProductByProductIdProcessesByProcessIdOperations(@Path("productId")productId: Long,@Path("processId") processId: Long,@Body data:TechnologicalOperationIM):Call<TechnologicalOperationIM>
 //    @POST("/api/product/{productId}/processes/{processId}/operations/{operationId}/modes")
 
+    @POST("/api/signin")
+    fun signIn(@Body userData: UserDataDto) : Deferred<Response<TokenDto>>
 //    @DELETE("/api/product/{productId}/processes/{processId}/operations/{operationId}/modes/{operationModeId}")
 //
 //    //report

@@ -6,13 +6,13 @@ abstract class MvpPresenter <T : MvpView>(
     protected val view: T
 ) {
 
-    fun onCreated() {}
+    open fun onCreated() {}
 
-    fun onStarted() {}
+    open fun onStarted() {}
 
-    fun onResumed() {}
+    open fun onResumed() {}
 
-    fun onPaused() {}
+    open fun onPaused() {}
 
-    fun onStopped() {}
+    open fun onStopped() {}
 }

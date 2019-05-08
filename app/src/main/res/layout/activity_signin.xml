@@ -47,7 +47,7 @@
             app:layout_constraintTop_toBottomOf="@id/workcenter"
     >
         <EditText
-                android:id="@+id/password"
+                android:id="@+id/release"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/password_field_hint"
@@ -56,11 +56,11 @@
 
     </android.support.design.widget.TextInputLayout>
 
-    <Button android:id="@+id/barcode"
+    <Button android:id="@+id/barcode_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Штрихкод"
+            android:text="@string/barcode_text"
             app:layout_constraintTop_toBottomOf="@+id/password_layout"
             app:layout_constraintStart_toEndOf="@+id/sign_in"
             app:layout_constraintHorizontal_bias="0.5"
@@ -72,10 +72,10 @@
             android:layout_height="52dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="16dp"
-            android:text="Войти"
+            android:text="@string/sign_in_button_text"
             app:layout_constraintTop_toBottomOf="@+id/password_layout"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toStartOf="@+id/barcode"
+            app:layout_constraintEnd_toStartOf="@+id/barcode_button"
             app:layout_constraintStart_toStartOf="@+id/password_layout"
     />
 

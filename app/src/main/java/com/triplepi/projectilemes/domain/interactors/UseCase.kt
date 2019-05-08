@@ -1,20 +1,24 @@
 package com.triplepi.projectilemes.domain.interactors
 
+import kotlinx.coroutines.*
+
 typealias ResultCallback<TResult> = ((TResult) -> Unit)
 
 abstract class UseCase<TResult> {
 
     private var callback: ResultCallback<TResult>? = null
 
-    abstract fun run() : TResult
+    abstract suspend fun run(): TResult
+
+    protected abstract val dispatcher: CoroutineDispatcher
 
     fun execute(callback: ResultCallback<TResult>) {
 
-        this.callback = callback
+        this@UseCase.callback = callback
 
-        val result = run()
+        val result = runBlocking(dispatcher) { run() }
 
-        this.callback?.invoke(result)
+        this@UseCase.callback?.invoke(result)
     }
 
     fun cancel() {

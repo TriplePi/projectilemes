@@ -7,7 +7,7 @@ import com.triplepi.projectilemes.mvp.MvpView
 interface SignInView: MvpView {
     val password: String
 
-    fun showCongrats()
+    fun showMainMenuScreen()
 
     fun showError()
 }
@@ -19,10 +19,14 @@ class SignInPresenter(view: SignInView) : MvpPresenter<SignInView>(view) {
         SignInUseCase("", view.password).execute { signIn: Boolean ->
 
             if (signIn) {
-                view.showCongrats()
+                view.showMainMenuScreen()
             } else {
                 view.showError()
             }
         }
     }
 }
+
+// view ---- (trigger event) ---> presenter --- (run usecase) ---- ( use case return data ) ----> peresenter ----- (view) ---> view
+// todo add stetho dependency
+// todo room

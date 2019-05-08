@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">projectilemes</string>
     <string name="password_field_hint">Пароль</string>
+    <string name="schedule_text">Расписание</string>
+    <string name="call_text">Вызов</string>
+    <string name="barcode_text">Штрих-код</string>
+    <string name="start_adjustment_text">Начать отладку</string>
+    <string name="accept_to_work_text">Принять в работу</string>
+    <string name="pause_task_text">Остановить</string>
+    <string name="continue_task_text">Продолжить</string>
+    <string name="done_task_text">Завершить</string>
+    <string name="cancel_label_text">Отменить выполнение</string>
+    <string name="product_label_text">Номенклатура</string>
+    <string name="operation_label_text">Операция</string>
+    <string name="amount_label_text">Количество</string>
+    <string name="release_input_hint">Выпуск</string>
+    <string name="rejection_input_hint">Брак</string>
+    <string name="rejection_cause_label_text">Укажите причину брака</string>
+    <string name="cancel_button_text">Отменить</string>
+    <string name="operation_status_text">Состояние операции</string>
+    <string name="sign_in_button_text">Войти</string>
 </resources>

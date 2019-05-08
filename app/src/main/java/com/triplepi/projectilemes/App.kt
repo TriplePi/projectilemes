@@ -1,6 +1,7 @@
 package com.triplepi.projectilemes
 
 import android.app.Application
+import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import com.triplepi.projectilemes.data.network.Api
 import net.danlew.android.joda.JodaTimeAndroid
 import retrofit2.Retrofit
@@ -9,6 +10,10 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 
 class App : Application() {
+
+    init {
+        INSTANCE = this
+    }
 
     val api: Api by lazy { initApi() }
 
@@ -21,6 +26,7 @@ class App : Application() {
         val retrofit = Retrofit.Builder()
             .baseUrl(BuildConfig.API_HOST)
             .client(client)
+            .addCallAdapterFactory(CoroutineCallAdapterFactory())
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
@@ -31,5 +37,10 @@ class App : Application() {
         super.onCreate()
 
         JodaTimeAndroid.init(this)
+    }
+
+    companion object {
+
+        lateinit var INSTANCE: App
     }
 }
