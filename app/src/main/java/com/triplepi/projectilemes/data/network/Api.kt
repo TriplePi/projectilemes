@@ -1,8 +1,6 @@
 package com.triplepi.projectilemes.data.network
 
 import com.triplepi.projectilemes.data.network.dto.*
-import com.triplepi.projectilemes.data.network.dto.OrderIM
-import io.swagger.client.models.*
 import kotlinx.coroutines.Deferred
 import retrofit2.Call
 import retrofit2.Response
@@ -72,31 +70,40 @@ interface Api {
     fun postProduct(@Body data: ProductIM)
 
     @GET("/api/products/{productId}")
-    fun getProduct(@Path("productId") id: Long): Call<ProductDto>
+    fun getProduct(@Path("productId") id: Long): Call<ProductIM>
+
     @DELETE("/api/product/{productId}")
-    fun deleteProduct(@Path("productId") productId:Long)
+    fun deleteProduct(@Path("productId") productId: Long)
+
     @POST("/api/product/{productId}/processes")
-    fun postProductByProductIdProcesses(@Path("productId") productId: Long,@Body data:TechnologicalProcessIM)
+    fun postProductByProductIdProcesses(@Path("productId") productId: Long, @Body data: TechnologicalProcessIM)
+
     @GET("/api/product/{productId}/processes/{processId}")
-    fun getProductByProductIdProcessesByProcessId(@Path("productId")productId: Long,@Path("processId") processId: Long):Call<TechnologicalProcessDTO>
+    fun getProductByProductIdProcessesByProcessId(@Path("productId") productId: Long, @Path("processId") processId: Long): Call<TechnologicalProcessIM>
+
     @POST("/api/product/{productId}/processes/{processId}/operations")
-    fun postProductByProductIdProcessesByProcessIdOperations(@Path("productId")productId: Long,@Path("processId") processId: Long,@Body data:TechnologicalOperationIM):Call<TechnologicalOperationIM>
+    fun postProductByProductIdProcessesByProcessIdOperations(@Path("productId") productId: Long, @Path("processId") processId: Long, @Body data: TechnologicalOperationIM): Call<TechnologicalOperationIM>
 //    @POST("/api/product/{productId}/processes/{processId}/operations/{operationId}/modes")
 
     @POST("/api/signin")
-    fun signIn(@Body userData: UserDataDto) : Deferred<Response<TokenDto>>
-//    @DELETE("/api/product/{productId}/processes/{processId}/operations/{operationId}/modes/{operationModeId}")
+    fun signIn(@Body userData: UserDataDto): Deferred<Response<TokenDto>>
+
+    //    @DELETE("/api/product/{productId}/processes/{processId}/operations/{operationId}/modes/{operationModeId}")
 //
 //    //report
 //    @GET("/api/report/batchesForecast")
 //    @GET("/api/report/dailyReport")
 //    @GET("/api/report/scheduleDetailed")
 //
-////    schedule
-//    @GET("/api/schedule")
-//    @POST("/api/schedule")
-//    @POST("/api/schedule/{id}/actions")
-//    @GET("/api/schedule/{id}/history")
+//    schedule
+    @GET("/api/schedule")
+    fun getSchedule(): Call<List<ScheduleItemIM>>
+
+    //    @POST("/api/schedule")
+    @POST("/api/schedule/{id}/actions")
+    fun postSheduleItemAction(@Path("id") scheduleItemId: Long, @Body scheduleItemActionIM: ScheduleItemActionIM)
+
+    //    @GET("/api/schedule/{id}/history")
 //    @POST("/api/schedule/{id}/manageactions")
 //    @GET("/api/schedule/deleted")
 //
@@ -108,9 +115,18 @@ interface Api {
 //    @GET("/api/timeline/workcenterservice")
 //
 ////    workcenter
-//    @GET("/api/workcenter")
+    @GET("/api/workcenter")
+    fun getWorkCenter(): Call<List<WorkCenterIM>>
+
+    @GET("/api/workcenter/{workCenterId}")
+    fun getWorkCenterById(@Path("workCenterId") workCenterId: Long): Call<WorkCenterIM>
+
+
 //    @POST("/api/workcenter")
 //    @DELETE("/api/workcenter/{workCenterId}")
 //    @POST("/api/workcenter/{workCenterId}/service")
 //    @POST("/api/workcenter/{workCenterId}/workingtimes")
+
+    @GET("/api/batches/{batchId}")
+    fun getBatch(@Path("batchId") batchId: Long): Call<BatchIM>
 }

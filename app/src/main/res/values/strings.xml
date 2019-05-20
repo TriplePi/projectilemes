@@ -16,7 +16,7 @@
     <string name="release_input_hint">Выпуск</string>
     <string name="rejection_input_hint">Брак</string>
     <string name="rejection_cause_label_text">Укажите причину брака</string>
-    <string name="cancel_button_text">Отменить</string>
+    <string name="cancel_button_text">Отметить</string>
     <string name="operation_status_text">Состояние операции</string>
     <string name="sign_in_button_text">Войти</string>
 </resources>

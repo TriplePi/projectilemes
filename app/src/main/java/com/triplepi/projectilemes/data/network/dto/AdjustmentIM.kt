@@ -9,7 +9,7 @@
 * https://github.com/swagger-api/swagger-codegen.git
 * Do not edit the class manually.
 */
-package io.swagger.client.models
+package com.triplepi.projectilemes.data.network.dto
 
 
 /**
@@ -20,9 +20,9 @@ package io.swagger.client.models
  * @param Duration 
  */
 data class AdjustmentIM (
-    val WorkCenterId: kotlin.Long? = null,
-    val OperationId: kotlin.Long? = null,
-    val PrevOperationId: kotlin.Long? = null,
-    val Duration: kotlin.String? = null
+    val WorkCenterId: Long? = null,
+    val OperationId: Long? = null,
+    val PrevOperationId: Long? = null,
+    val Duration: String? = null
 )
 

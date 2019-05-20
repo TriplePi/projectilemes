@@ -14,7 +14,7 @@ import com.triplepi.projectilemes.presentation.SignInView
 class SignInActivity : MvpActivity<SignInView, SignInPresenter>(), SignInView {
 
     private val signInButton: Button by bind(R.id.sign_in)
-    private val passwordInput: EditText by bind(R.id.release)
+    private val passwordInput: EditText by bind(R.id.password)
 
     override val password: String
         get() = passwordInput.text.toString()

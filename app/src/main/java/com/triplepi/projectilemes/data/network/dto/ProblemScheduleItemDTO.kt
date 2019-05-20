@@ -9,11 +9,7 @@
 * https://github.com/swagger-api/swagger-codegen.git
 * Do not edit the class manually.
 */
-package io.swagger.client.models
-
-import io.swagger.client.models.ScheduleItemBatchDTO
-import io.swagger.client.models.ScheduleItemOperationDTO
-import io.swagger.client.models.ScheduleItemWorkCenterDTO
+package com.triplepi.projectilemes.data.network.dto
 
 /**
  * 

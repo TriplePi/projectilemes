@@ -9,9 +9,9 @@
 * https://github.com/swagger-api/swagger-codegen.git
 * Do not edit the class manually.
 */
-package io.swagger.client.models
+package com.triplepi.projectilemes.data.network.dto
 
-import io.swagger.client.models.BatchIM
+import com.triplepi.projectilemes.data.network.dto.BatchIM
 
 /**
  * 

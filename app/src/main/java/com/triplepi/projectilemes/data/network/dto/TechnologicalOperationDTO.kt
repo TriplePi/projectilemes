@@ -9,9 +9,10 @@
 * https://github.com/swagger-api/swagger-codegen.git
 * Do not edit the class manually.
 */
-package io.swagger.client.models
+package com.triplepi.projectilemes.data.network.dto
 
 import com.triplepi.projectilemes.data.network.dto.AdjustmentDTO
+import com.triplepi.projectilemes.data.network.dto.OperationModeDTO
 
 /**
  * 
