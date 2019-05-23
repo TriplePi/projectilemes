@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.support.annotation.RequiresApi
+import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.widget.Button
@@ -29,12 +30,14 @@ class ScheduleActivity : MvpActivity<ScheduleView, SchedulePresenter>(), Schedul
         presenter.loadSchedule()
         scheduleListView.layoutManager = LinearLayoutManager(this)
         scheduleListView.adapter = ScheduleAdapter(scheduleList)
+        scheduleListView.addItemDecoration(DividerItemDecoration(this, DividerItemDecoration.VERTICAL))
         backButton.setOnClickListener { presenter.onBackButtonClicked() }
     }
 
     override fun showMainMenuScreen() {
         val intent = Intent(this@ScheduleActivity, MainMenuActivity::class.java)
         startActivity(intent)
+        finish()
     }
 
 

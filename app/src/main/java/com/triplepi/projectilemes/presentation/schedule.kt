@@ -7,7 +7,9 @@ import com.triplepi.projectilemes.mvp.MvpPresenter
 import com.triplepi.projectilemes.mvp.MvpView
 import com.triplepi.projectilemes.ui.adapters.ScheduleAdapter
 import com.triplepi.projectilemes.data.network.dto.ScheduleItemDTO
-import java.time.Duration
+import org.joda.time.DateTime
+import org.joda.time.Duration
+import org.joda.time.LocalDateTime
 
 interface ScheduleView : MvpView {
 
@@ -25,21 +27,31 @@ class SchedulePresenter(view: ScheduleView) : MvpPresenter<ScheduleView>(view) {
 
     @RequiresApi(Build.VERSION_CODES.O)
     fun loadSchedule() {
-        LoadScheduleUseCase().execute { list -> view.scheduleList = list.map { x -> converDTOToScheduleItem(x) } }
+        LoadScheduleUseCase().execute { list -> view.scheduleList = list.map { x -> convertDtoToScheduleItem(x) } }
     }
 
     @RequiresApi(Build.VERSION_CODES.O)
-    fun converDTOToScheduleItem(dto: ScheduleItemDTO?): ScheduleAdapter.ScheduleItem {
-        val duration: String = Duration.between(dto!!.StartDate, dto.FinishDate).toHours().toString()
-        return ScheduleAdapter.ScheduleItem(
-            operation = dto.Operation!!.Name.orEmpty()
-            , product = dto.Operation.ProductName.orEmpty()
-            , quantity = dto.Batch!!.Quantity.toString()
-            , order = dto.Batch.OrderNumber.orEmpty()
-            , startDate = dto.StartDate.toString()
-            , endDate = dto.FinishDate.toString()
-            , duration = duration
+    fun convertDtoToScheduleItem(dto: ScheduleItemDTO?): ScheduleAdapter.ScheduleItem {
+
+        return if (dto != null) {
+            val duration = Duration(DateTime(dto.FinishDate!!), DateTime(dto.StartDate!!))
+            ScheduleAdapter.ScheduleItem(
+                operation = dto.Operation!!.Name.orEmpty()
+                , product = dto.Operation.ProductName.orEmpty()
+                , quantity = dto.Batch!!.Quantity.toString()
+                , order = dto.Batch.OrderNumber.orEmpty()
+                , startDate = DateTime(dto.StartDate).hourOfDay.toString()+":"+DateTime(dto.StartDate).minuteOfHour.toString()
+                , endDate = DateTime(dto.FinishDate).hourOfDay.toString()+":"+DateTime(dto.FinishDate).minuteOfHour.toString()
+                , duration = duration.standardHours.toString()+":"+duration.standardMinutes.toString().subSequence(1,3)
+            )
+        } else ScheduleAdapter.ScheduleItem(
+            operation = "",
+            duration = "",
+            endDate = "",
+            startDate = "",
+            order = "",
+            quantity = "",
+            product = ""
         )
     }
-
 }

@@ -23,7 +23,8 @@ android {
     buildTypes {
 
         debug {
-            buildConfigField("String", "API_HOST", "\"https://projectilemes.getsandbox.com/\"")
+//            buildConfigField("String", "API_HOST", "\"https://mesapi.getsandbox.com/\"")
+            buildConfigField("String", "API_HOST", "\"http://172.25.34.177:5000\"")
         }
         release {
             minifyEnabled false
@@ -60,5 +61,5 @@ dependencies {
 
     implementation 'com.facebook.stetho:stetho:1.5.1'
 
-
+    implementation 'me.dm7.barcodescanner:zxing:1.9'
 }

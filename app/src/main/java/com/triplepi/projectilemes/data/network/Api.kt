@@ -97,11 +97,11 @@ interface Api {
 //
 //    schedule
     @GET("/api/schedule")
-    fun getSchedule(): Call<List<ScheduleItemIM>>
+    fun getSchedule(@Query("minTs") minTs: Long?, @Query("begin") begin: String?, @Query("end") end: String?): Call<List<ScheduleItemDTO>>
 
     //    @POST("/api/schedule")
     @POST("/api/schedule/{id}/actions")
-    fun postSheduleItemAction(@Path("id") scheduleItemId: Long, @Body scheduleItemActionIM: ScheduleItemActionIM)
+    fun postScheduleItemAction(@Path("id") scheduleItemId: Long, @Body scheduleItemActionIM: ScheduleItemActionIM): Call<Void>
 
     //    @GET("/api/schedule/{id}/history")
 //    @POST("/api/schedule/{id}/manageactions")

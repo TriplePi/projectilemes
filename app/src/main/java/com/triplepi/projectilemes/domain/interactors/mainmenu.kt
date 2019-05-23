@@ -2,7 +2,6 @@ package com.triplepi.projectilemes.domain.interactors
 
 import com.triplepi.projectilemes.App
 import com.triplepi.projectilemes.data.network.dto.ScheduleItemActionIM
-import com.triplepi.projectilemes.data.network.dto.ScheduleItemDTO
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.IO
@@ -16,7 +15,7 @@ class StageScheduleItemActionUseCase(val scheduleItemId: Long, val scheduleItemA
         get() = Dispatchers.IO
 
     override suspend fun run(): Boolean {
-        api.postSheduleItemAction(scheduleItemId, scheduleItemActionIM)
+        api.postScheduleItemAction(scheduleItemId, scheduleItemActionIM).execute()
         return true
     }
 

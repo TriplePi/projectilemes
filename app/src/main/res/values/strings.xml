@@ -3,7 +3,7 @@
     <string name="password_field_hint">Пароль</string>
     <string name="schedule_text">Расписание</string>
     <string name="call_text">Вызов</string>
-    <string name="barcode_text">Штрих-код</string>
+    <string name="barcode_text">QR-код</string>
     <string name="start_adjustment_text">Начать отладку</string>
     <string name="accept_to_work_text">Принять в работу</string>
     <string name="pause_task_text">Остановить</string>
@@ -19,4 +19,12 @@
     <string name="cancel_button_text">Отметить</string>
     <string name="operation_status_text">Состояние операции</string>
     <string name="sign_in_button_text">Войти</string>
+    <string name="cannot_button_label">Отмена</string>
+    <string name="quantity_label_str">Количество:</string>
+    <string name="order_name_label_str">Заказ:</string>
+    <string name="start_date_label_str">Время начала:</string>
+    <string name="end_date_label_str">Время окончания:</string>
+    <string name="duration_label_str">Длительность:</string>
+    <string name="operation_name_label_str">Операция:</string>
+    <string name="product_name_label_str">Номенклатура:</string>
 </resources>

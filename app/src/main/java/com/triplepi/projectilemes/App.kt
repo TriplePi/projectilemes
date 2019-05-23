@@ -15,6 +15,21 @@ class App : Application() {
         INSTANCE = this
     }
 
+    var workCenterID = 0
+
+    var workCenters = mapOf(
+        "ин.389 Vсenter" to 44
+        , "ин.439 CHEVALIER" to 45
+        , "ин.454 Vсenter" to 49
+        , "ин.22 CHEVALIER" to 50
+        , "ин.399 CHEVALIER" to 51
+        , "ин.161 HARDINGE" to 52
+        , "ин.472 CHEVALIER" to 53
+        , "ин.471 CHEVALIER" to 54
+        , "ин.496 AVRORA" to 55
+        , "ин.450 Vсenter" to 56
+    )
+
     val api: Api by lazy { initApi() }
 
     private fun initApi(): Api {
