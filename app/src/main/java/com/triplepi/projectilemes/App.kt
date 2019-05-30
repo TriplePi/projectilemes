@@ -3,6 +3,8 @@ package com.triplepi.projectilemes
 import android.app.Application
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import com.triplepi.projectilemes.data.network.Api
+import com.triplepi.projectilemes.data.network.dto.ScheduleItemDTO
+import com.triplepi.projectilemes.domain.interactors.LoadScheduleUseCase
 import net.danlew.android.joda.JodaTimeAndroid
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -30,6 +32,8 @@ class App : Application() {
         , "ин.450 Vсenter" to 56
     )
 
+    var schedule: MutableList<ScheduleItemDTO> = mutableListOf()
+
     val api: Api by lazy { initApi() }
 
     private fun initApi(): Api {
@@ -44,6 +48,8 @@ class App : Application() {
             .addCallAdapterFactory(CoroutineCallAdapterFactory())
             .addConverterFactory(GsonConverterFactory.create())
             .build()
+
+
 
         return retrofit.create(Api::class.java)
     }

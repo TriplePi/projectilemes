@@ -27,4 +27,17 @@
     <string name="duration_label_str">Длительность:</string>
     <string name="operation_name_label_str">Операция:</string>
     <string name="product_name_label_str">Номенклатура:</string>
+    <string name="call_label_text">Вызов помощи</string>
+    <string name="call_master_text">Мастер</string>
+    <string name="call_service_text">Сервис</string>
+    <string name="call_technologist_text">Технолог</string>
+    <string name="call_medic_text">Врач</string>
+    <string name="call_otk_text">ОТК</string>
+    <string name="call_adjuster_text">Наладчик</string>
+    <string name="popup_back_text">Отмена</string>
+    <string name="no_resource_text">Нет заготовки</string>
+    <string name="wc_broken_text">Неисправен станок</string>
+    <string name="no_tool_text">Нет инструмента</string>
+    <string name="reject_label_text">Укажите причину</string>
+    <string name="cancel_reject_text">Отмена</string>
 </resources>

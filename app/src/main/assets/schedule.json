@@ -1,0 +1,2774 @@
+[
+  {
+    "Id": 1,
+    "Operation": {
+      "Name": "TО #6-1 СПЕЦ. ШЛИФОВАЛЬHАЯ | 43",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 1,
+      "OperationId": 1,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 44,
+      "Name": "ин.389 Vсenter"
+    },
+    "Batch": {
+      "Id": 253,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 79,
+      "OrderNumber": "000079",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T09:52:00Z",
+    "StartExecutionDate": "2019-01-30T09:52:00Z",
+    "FinishDate": "2019-01-30T10:45:00Z",
+    "WorkCenterFinishDate": "2019-01-30T10:45:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 2,
+    "Operation": {
+      "Name": "TО #6-1 ПЛОСКОШЛИФОВАЛЬHАЯ | 208",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 22,
+      "OperationId": 22,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 45,
+      "Name": "ин.439 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 178,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 4,
+      "OrderNumber": "000004",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T09:52:00Z",
+    "StartExecutionDate": "2019-01-30T09:52:00Z",
+    "FinishDate": "2019-01-30T10:40:00Z",
+    "WorkCenterFinishDate": "2019-01-30T10:40:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 3,
+    "Operation": {
+      "Name": "TО #6-1 КРУГЛОШЛИФОВАЛЬHАЯ | 39",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 47,
+      "OperationId": 47,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 56,
+      "Name": "ин.450 Vсenter"
+    },
+    "Batch": {
+      "Id": 251,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 77,
+      "OrderNumber": "000077",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T09:52:00Z",
+    "StartExecutionDate": "2019-01-30T09:52:00Z",
+    "FinishDate": "2019-01-30T10:28:00Z",
+    "WorkCenterFinishDate": "2019-01-30T10:28:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 4,
+    "Operation": {
+      "Name": "TО #6-1 КРУГЛОШЛИФОВАЛЬHАЯ | 39",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 47,
+      "OperationId": 47,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 56,
+      "Name": "ин.450 Vсenter"
+    },
+    "Batch": {
+      "Id": 228,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 54,
+      "OrderNumber": "000054",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T10:28:00Z",
+    "StartExecutionDate": "2019-01-30T10:28:00Z",
+    "FinishDate": "2019-01-30T11:04:00Z",
+    "WorkCenterFinishDate": "2019-01-30T11:04:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 5,
+    "Operation": {
+      "Name": "TО #6-1 СПЕЦ. ШЛИФОВАЛЬHАЯ | 43",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 1,
+      "OperationId": 1,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 49,
+      "Name": "ин.454 Vсenter"
+    },
+    "Batch": {
+      "Id": 182,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 8,
+      "OrderNumber": "000008",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T09:52:00Z",
+    "StartExecutionDate": "2019-01-30T09:52:00Z",
+    "FinishDate": "2019-01-30T10:45:00Z",
+    "WorkCenterFinishDate": "2019-01-30T10:45:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 6,
+    "Operation": {
+      "Name": "TО #6-2 ФРЕЗЕРHАЯ С ЧПУ | 835",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 48,
+      "OperationId": 48,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 54,
+      "Name": "ин.471 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 228,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 54,
+      "OrderNumber": "000054",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T11:04:00Z",
+    "StartExecutionDate": "2019-01-30T11:04:00Z",
+    "FinishDate": "2019-01-30T11:25:00Z",
+    "WorkCenterFinishDate": "2019-01-30T11:25:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 7,
+    "Operation": {
+      "Name": "TО #6-1 КРУГЛОШЛИФОВАЛЬHАЯ | 39",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 47,
+      "OperationId": 47,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 56,
+      "Name": "ин.450 Vсenter"
+    },
+    "Batch": {
+      "Id": 199,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 25,
+      "OrderNumber": "000025",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T11:04:00Z",
+    "StartExecutionDate": "2019-01-30T11:04:00Z",
+    "FinishDate": "2019-01-30T11:40:00Z",
+    "WorkCenterFinishDate": "2019-01-30T11:40:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 8,
+    "Operation": {
+      "Name": "TО #6-1 ПЛОСКОШЛИФОВАЛЬHАЯ | 208",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 22,
+      "OperationId": 22,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 51,
+      "Name": "ин.399 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 185,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 11,
+      "OrderNumber": "000011",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T09:52:00Z",
+    "StartExecutionDate": "2019-01-30T09:52:00Z",
+    "FinishDate": "2019-01-30T10:40:00Z",
+    "WorkCenterFinishDate": "2019-01-30T10:40:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 9,
+    "Operation": {
+      "Name": "TО #6-1 КРУГЛОШЛИФОВАЛЬHАЯ | 608",
+      "ProductName": "Продукт #2",
+      "ProductId": 2,
+      "ModeId": 11,
+      "OperationId": 11,
+      "TechnologyProcessId": 2
+    },
+    "WorkCenter": {
+      "Id": 56,
+      "Name": "ин.450 Vсenter"
+    },
+    "Batch": {
+      "Id": 191,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 17,
+      "OrderNumber": "000017",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T11:40:00Z",
+    "StartExecutionDate": "2019-01-30T11:40:00Z",
+    "FinishDate": "2019-01-30T12:02:00Z",
+    "WorkCenterFinishDate": "2019-01-30T12:02:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 10,
+    "Operation": {
+      "Name": "TО #6-1 СПЕЦ. ШЛИФОВАЛЬHАЯ | 43",
+      "ProductName": "Продукт #2",
+      "ProductId": 1,
+      "ModeId": 1,
+      "OperationId": 1,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 44,
+      "Name": "ин.389 Vсenter"
+    },
+    "Batch": {
+      "Id": 236,
+      "Number": 1,
+      "Quantity": 10,
+      "OrderId": 63,
+      "OrderNumber": "000063",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T10:45:00Z",
+    "StartExecutionDate": "2019-01-30T10:45:00Z",
+    "FinishDate": "2019-01-30T11:38:00Z",
+    "WorkCenterFinishDate": "2019-01-30T11:38:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 11,
+    "Operation": {
+      "Name": "TО #6-1 СПЕЦ. ШЛИФОВАЛЬHАЯ | 43",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 1,
+      "OperationId": 1,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 49,
+      "Name": "ин.454 Vсenter"
+    },
+    "Batch": {
+      "Id": 238,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 65,
+      "OrderNumber": "000065",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T10:45:00Z",
+    "StartExecutionDate": "2019-01-30T10:45:00Z",
+    "FinishDate": "2019-01-30T11:38:00Z",
+    "WorkCenterFinishDate": "2019-01-30T11:38:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 12,
+    "Operation": {
+      "Name": "TО #6-1 СПЕЦ. ШЛИФОВАЛЬHАЯ | 43",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 1,
+      "OperationId": 1,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 49,
+      "Name": "ин.454 Vсenter"
+    },
+    "Batch": {
+      "Id": 203,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 29,
+      "OrderNumber": "000029",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T11:38:00Z",
+    "StartExecutionDate": "2019-01-30T11:38:00Z",
+    "FinishDate": "2019-01-30T12:31:00Z",
+    "WorkCenterFinishDate": "2019-01-30T12:31:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 13,
+    "Operation": {
+      "Name": "TО #6-1 СПЕЦ. ШЛИФОВАЛЬHАЯ | 43",
+      "ProductName": "Продукт #3",
+      "ProductId": 1,
+      "ModeId": 1,
+      "OperationId": 1,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 44,
+      "Name": "ин.389 Vсenter"
+    },
+    "Batch": {
+      "Id": 179,
+      "Number": 1,
+      "Quantity": 5,
+      "OrderId": 5,
+      "OrderNumber": "000005",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T11:38:00Z",
+    "StartExecutionDate": "2019-01-30T11:38:00Z",
+    "FinishDate": "2019-01-30T12:31:00Z",
+    "WorkCenterFinishDate": "2019-01-30T12:31:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 14,
+    "Operation": {
+      "Name": "TО #6-1 СПЕЦ. ШЛИФОВАЛЬHАЯ | 43",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 1,
+      "OperationId": 1,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 44,
+      "Name": "ин.389 Vсenter"
+    },
+    "Batch": {
+      "Id": 244,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 70,
+      "OrderNumber": "000070",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T12:31:00Z",
+    "StartExecutionDate": "2019-01-30T12:31:00Z",
+    "FinishDate": "2019-01-30T13:24:00Z",
+    "WorkCenterFinishDate": "2019-01-30T13:24:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 15,
+    "Operation": {
+      "Name": "TО #6-2 СЛЕСАРHАЯ | 112",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 2,
+      "OperationId": 2,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 52,
+      "Name": "ин.161 HARDINGE"
+    },
+    "Batch": {
+      "Id": 236,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 63,
+      "OrderNumber": "000063",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T11:38:00Z",
+    "StartExecutionDate": "2019-01-30T11:38:00Z",
+    "FinishDate": "2019-01-30T12:07:00Z",
+    "WorkCenterFinishDate": "2019-01-30T12:07:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 16,
+    "Operation": {
+      "Name": "TО #6-2 СЛЕСАРHАЯ | 112",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 2,
+      "OperationId": 2,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 52,
+      "Name": "ин.161 HARDINGE"
+    },
+    "Batch": {
+      "Id": 203,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 29,
+      "OrderNumber": "000029",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T12:31:00Z",
+    "StartExecutionDate": "2019-01-30T12:31:00Z",
+    "FinishDate": "2019-01-30T13:00:00Z",
+    "WorkCenterFinishDate": "2019-01-30T13:00:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 17,
+    "Operation": {
+      "Name": "TО #6-1 КРУГЛОШЛИФОВАЛЬHАЯ | 39",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 47,
+      "OperationId": 47,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 56,
+      "Name": "ин.450 Vсenter"
+    },
+    "Batch": {
+      "Id": 208,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 34,
+      "OrderNumber": "000034",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T12:02:00Z",
+    "StartExecutionDate": "2019-01-30T12:02:00Z",
+    "FinishDate": "2019-01-30T12:38:00Z",
+    "WorkCenterFinishDate": "2019-01-30T12:38:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 18,
+    "Operation": {
+      "Name": "TО #6-1 СПЕЦ. ШЛИФОВАЛЬHАЯ | 100",
+      "ProductName": "Продукт #4",
+      "ProductId": 4,
+      "ModeId": 37,
+      "OperationId": 37,
+      "TechnologyProcessId": 4
+    },
+    "WorkCenter": {
+      "Id": 44,
+      "Name": "ин.389 Vсenter"
+    },
+    "Batch": {
+      "Id": 201,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 27,
+      "OrderNumber": "000027",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T13:24:00Z",
+    "StartExecutionDate": "2019-01-30T13:24:00Z",
+    "FinishDate": "2019-01-30T14:09:00Z",
+    "WorkCenterFinishDate": "2019-01-30T14:09:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 19,
+    "Operation": {
+      "Name": "TО #6-2 СЛЕСАРHАЯ | 112",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 2,
+      "OperationId": 2,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 52,
+      "Name": "ин.161 HARDINGE"
+    },
+    "Batch": {
+      "Id": 179,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 5,
+      "OrderNumber": "000005",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T13:00:00Z",
+    "StartExecutionDate": "2019-01-30T13:00:00Z",
+    "FinishDate": "2019-01-30T13:29:00Z",
+    "WorkCenterFinishDate": "2019-01-30T13:29:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 20,
+    "Operation": {
+      "Name": "TО #6-1 СПЕЦ. ШЛИФОВАЛЬHАЯ | 43",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 1,
+      "OperationId": 1,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 44,
+      "Name": "ин.389 Vсenter"
+    },
+    "Batch": {
+      "Id": 196,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 22,
+      "OrderNumber": "000022",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T14:09:00Z",
+    "StartExecutionDate": "2019-01-30T14:09:00Z",
+    "FinishDate": "2019-01-30T15:02:00Z",
+    "WorkCenterFinishDate": "2019-01-30T15:02:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 21,
+    "Operation": {
+      "Name": "TО #6-1 ПЛОСКОШЛИФОВАЛЬHАЯ | 208",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 22,
+      "OperationId": 22,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 51,
+      "Name": "ин.399 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 175,
+      "Number": 1,
+      "Quantity": 7,
+      "OrderId": 2,
+      "OrderNumber": "000002",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T10:40:00Z",
+    "StartExecutionDate": "2019-01-30T10:40:00Z",
+    "FinishDate": "2019-01-30T16:16:00Z",
+    "WorkCenterFinishDate": "2019-01-30T16:16:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 22,
+    "Operation": {
+      "Name": "TО #6-1 КРУГЛОШЛИФОВАЛЬHАЯ | 608",
+      "ProductName": "Продукт #2",
+      "ProductId": 2,
+      "ModeId": 11,
+      "OperationId": 11,
+      "TechnologyProcessId": 2
+    },
+    "WorkCenter": {
+      "Id": 56,
+      "Name": "ин.450 Vсenter"
+    },
+    "Batch": {
+      "Id": 193,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 18,
+      "OrderNumber": "000018",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T12:38:00Z",
+    "StartExecutionDate": "2019-01-30T12:38:00Z",
+    "FinishDate": "2019-01-30T13:00:00Z",
+    "WorkCenterFinishDate": "2019-01-30T13:00:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 23,
+    "Operation": {
+      "Name": "TО #6-1 КРУГЛОШЛИФОВАЛЬHАЯ | 39",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 47,
+      "OperationId": 47,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 56,
+      "Name": "ин.450 Vсenter"
+    },
+    "Batch": {
+      "Id": 250,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 76,
+      "OrderNumber": "000076",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T13:00:00Z",
+    "StartExecutionDate": "2019-01-30T13:00:00Z",
+    "FinishDate": "2019-01-30T13:36:00Z",
+    "WorkCenterFinishDate": "2019-01-30T13:36:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 24,
+    "Operation": {
+      "Name": "TО #6-1 СПЕЦ. ШЛИФОВАЛЬHАЯ | 43",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 1,
+      "OperationId": 1,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 49,
+      "Name": "ин.454 Vсenter"
+    },
+    "Batch": {
+      "Id": 207,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 33,
+      "OrderNumber": "000033",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T12:31:00Z",
+    "StartExecutionDate": "2019-01-30T12:31:00Z",
+    "FinishDate": "2019-01-30T13:24:00Z",
+    "WorkCenterFinishDate": "2019-01-30T13:24:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 25,
+    "Operation": {
+      "Name": "TО #6-1 КРУГЛОШЛИФОВАЛЬHАЯ | 608",
+      "ProductName": "Продукт #2",
+      "ProductId": 2,
+      "ModeId": 11,
+      "OperationId": 11,
+      "TechnologyProcessId": 2
+    },
+    "WorkCenter": {
+      "Id": 56,
+      "Name": "ин.450 Vсenter"
+    },
+    "Batch": {
+      "Id": 237,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 62,
+      "OrderNumber": "000062",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T13:36:00Z",
+    "StartExecutionDate": "2019-01-30T13:36:00Z",
+    "FinishDate": "2019-01-30T13:58:00Z",
+    "WorkCenterFinishDate": "2019-01-30T13:58:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 26,
+    "Operation": {
+      "Name": "TО #6-1 СПЕЦ. ШЛИФОВАЛЬHАЯ | 43",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 1,
+      "OperationId": 1,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 44,
+      "Name": "ин.389 Vсenter"
+    },
+    "Batch": {
+      "Id": 227,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 53,
+      "OrderNumber": "000053",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T15:02:00Z",
+    "StartExecutionDate": "2019-01-30T15:02:00Z",
+    "FinishDate": "2019-01-30T15:55:00Z",
+    "WorkCenterFinishDate": "2019-01-30T15:55:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 27,
+    "Operation": {
+      "Name": "TО #6-1 КРУГЛОШЛИФОВАЛЬHАЯ | 39",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 47,
+      "OperationId": 47,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 56,
+      "Name": "ин.450 Vсenter"
+    },
+    "Batch": {
+      "Id": 249,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 75,
+      "OrderNumber": "000075",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T13:58:00Z",
+    "StartExecutionDate": "2019-01-30T13:58:00Z",
+    "FinishDate": "2019-01-30T14:34:00Z",
+    "WorkCenterFinishDate": "2019-01-30T14:34:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 28,
+    "Operation": {
+      "Name": "TО #6-2 ПЛОСКОШЛИФОВАЛЬHАЯ | 760",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 23,
+      "OperationId": 23,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 45,
+      "Name": "ин.439 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 178,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 4,
+      "OrderNumber": "000004",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T10:40:00Z",
+    "StartExecutionDate": "2019-01-30T10:40:00Z",
+    "FinishDate": "2019-01-30T11:22:00Z",
+    "WorkCenterFinishDate": "2019-01-30T11:22:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 29,
+    "Operation": {
+      "Name": "TО #6-1 СПЕЦ. ШЛИФОВАЛЬHАЯ | 43",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 1,
+      "OperationId": 1,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 44,
+      "Name": "ин.389 Vсenter"
+    },
+    "Batch": {
+      "Id": 186,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 12,
+      "OrderNumber": "000012",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T15:55:00Z",
+    "StartExecutionDate": "2019-01-30T15:55:00Z",
+    "FinishDate": "2019-01-30T16:48:00Z",
+    "WorkCenterFinishDate": "2019-01-30T16:48:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 30,
+    "Operation": {
+      "Name": "TО #6-2 ФРЕЗЕРHАЯ С ЧПУ | 835",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 48,
+      "OperationId": 48,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 53,
+      "Name": "ин.472 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 199,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 25,
+      "OrderNumber": "000025",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T11:40:00Z",
+    "StartExecutionDate": "2019-01-30T11:40:00Z",
+    "FinishDate": "2019-01-30T12:01:00Z",
+    "WorkCenterFinishDate": "2019-01-30T12:01:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 31,
+    "Operation": {
+      "Name": "TО #6-1 КРУГЛОШЛИФОВАЛЬHАЯ | 39",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 47,
+      "OperationId": 47,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 56,
+      "Name": "ин.450 Vсenter"
+    },
+    "Batch": {
+      "Id": 205,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 31,
+      "OrderNumber": "000031",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T14:34:00Z",
+    "StartExecutionDate": "2019-01-30T14:34:00Z",
+    "FinishDate": "2019-01-30T15:10:00Z",
+    "WorkCenterFinishDate": "2019-01-30T15:10:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 32,
+    "Operation": {
+      "Name": "TО #6-1 СПЕЦ. ШЛИФОВАЛЬHАЯ | 43",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 1,
+      "OperationId": 1,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 44,
+      "Name": "ин.389 Vсenter"
+    },
+    "Batch": {
+      "Id": 187,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 14,
+      "OrderNumber": "000014",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T16:48:00Z",
+    "StartExecutionDate": "2019-01-30T16:48:00Z",
+    "FinishDate": "2019-01-30T17:41:00Z",
+    "WorkCenterFinishDate": "2019-01-30T17:41:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 33,
+    "Operation": {
+      "Name": "TО #6-1 СПЕЦ. ШЛИФОВАЛЬHАЯ | 43",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 1,
+      "OperationId": 1,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 44,
+      "Name": "ин.389 Vсenter"
+    },
+    "Batch": {
+      "Id": 192,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 19,
+      "OrderNumber": "000019",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T17:41:00Z",
+    "StartExecutionDate": "2019-01-30T17:41:00Z",
+    "FinishDate": "2019-01-30T18:34:00Z",
+    "WorkCenterFinishDate": "2019-01-30T18:34:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 34,
+    "Operation": {
+      "Name": "TО #6-1 СПЕЦ. ШЛИФОВАЛЬHАЯ | 43",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 1,
+      "OperationId": 1,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 49,
+      "Name": "ин.454 Vсenter"
+    },
+    "Batch": {
+      "Id": 176,
+      "Number": 1,
+      "Quantity": 10,
+      "OrderId": 1,
+      "OrderNumber": "000001",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T13:24:00Z",
+    "StartExecutionDate": "2019-01-30T13:24:00Z",
+    "FinishDate": "2019-01-30T22:14:00Z",
+    "WorkCenterFinishDate": "2019-01-30T22:14:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 35,
+    "Operation": {
+      "Name": "TО #6-1 ПЛОСКОШЛИФОВАЛЬHАЯ | 208",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 22,
+      "OperationId": 22,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 45,
+      "Name": "ин.439 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 204,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 30,
+      "OrderNumber": "000030",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T11:22:00Z",
+    "StartExecutionDate": "2019-01-30T11:22:00Z",
+    "FinishDate": "2019-01-30T12:10:00Z",
+    "WorkCenterFinishDate": "2019-01-30T12:10:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 36,
+    "Operation": {
+      "Name": "TО #6-1 ПЛОСКОШЛИФОВАЛЬHАЯ | 208",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 22,
+      "OperationId": 22,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 45,
+      "Name": "ин.439 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 247,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 73,
+      "OrderNumber": "000073",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T12:10:00Z",
+    "StartExecutionDate": "2019-01-30T12:10:00Z",
+    "FinishDate": "2019-01-30T12:58:00Z",
+    "WorkCenterFinishDate": "2019-01-30T12:58:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 37,
+    "Operation": {
+      "Name": "TО #6-1 ПЛОСКОШЛИФОВАЛЬHАЯ | 208",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 22,
+      "OperationId": 22,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 45,
+      "Name": "ин.439 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 234,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 60,
+      "OrderNumber": "000060",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T12:58:00Z",
+    "StartExecutionDate": "2019-01-30T12:58:00Z",
+    "FinishDate": "2019-01-30T13:46:00Z",
+    "WorkCenterFinishDate": "2019-01-30T13:46:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 38,
+    "Operation": {
+      "Name": "TО #6-1 КРУГЛОШЛИФОВАЛЬHАЯ | 39",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 47,
+      "OperationId": 47,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 56,
+      "Name": "ин.450 Vсenter"
+    },
+    "Batch": {
+      "Id": 198,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 24,
+      "OrderNumber": "000024",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T15:10:00Z",
+    "StartExecutionDate": "2019-01-30T15:10:00Z",
+    "FinishDate": "2019-01-30T15:46:00Z",
+    "WorkCenterFinishDate": "2019-01-30T15:46:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 39,
+    "Operation": {
+      "Name": "TО #6-1 ПЛОСКОШЛИФОВАЛЬHАЯ | 208",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 22,
+      "OperationId": 22,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 45,
+      "Name": "ин.439 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 194,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 20,
+      "OrderNumber": "000020",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T13:46:00Z",
+    "StartExecutionDate": "2019-01-30T13:46:00Z",
+    "FinishDate": "2019-01-30T14:34:00Z",
+    "WorkCenterFinishDate": "2019-01-30T14:34:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 40,
+    "Operation": {
+      "Name": "TО #6-1 КРУГЛОШЛИФОВАЛЬHАЯ | 39",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 47,
+      "OperationId": 47,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 56,
+      "Name": "ин.450 Vсenter"
+    },
+    "Batch": {
+      "Id": 239,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 64,
+      "OrderNumber": "000064",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T15:46:00Z",
+    "StartExecutionDate": "2019-01-30T15:46:00Z",
+    "FinishDate": "2019-01-30T16:22:00Z",
+    "WorkCenterFinishDate": "2019-01-30T16:22:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 41,
+    "Operation": {
+      "Name": "TО #6-2 ПЛОСКОШЛИФОВАЛЬHАЯ | 760",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 23,
+      "OperationId": 23,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 45,
+      "Name": "ин.439 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 234,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 60,
+      "OrderNumber": "000060",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T14:34:00Z",
+    "StartExecutionDate": "2019-01-30T14:34:00Z",
+    "FinishDate": "2019-01-30T15:16:00Z",
+    "WorkCenterFinishDate": "2019-01-30T15:16:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 42,
+    "Operation": {
+      "Name": "TО #6-2 ФРЕЗЕРHАЯ С ЧПУ | 835",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 48,
+      "OperationId": 48,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 53,
+      "Name": "ин.472 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 249,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 75,
+      "OrderNumber": "000075",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T14:34:00Z",
+    "StartExecutionDate": "2019-01-30T14:34:00Z",
+    "FinishDate": "2019-01-30T14:55:00Z",
+    "WorkCenterFinishDate": "2019-01-30T14:55:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 43,
+    "Operation": {
+      "Name": "TО #6-1 КРУГЛОШЛИФОВАЛЬHАЯ | 39",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 47,
+      "OperationId": 47,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 56,
+      "Name": "ин.450 Vсenter"
+    },
+    "Batch": {
+      "Id": 240,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 66,
+      "OrderNumber": "000066",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T16:22:00Z",
+    "StartExecutionDate": "2019-01-30T16:22:00Z",
+    "FinishDate": "2019-01-30T16:58:00Z",
+    "WorkCenterFinishDate": "2019-01-30T16:58:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 44,
+    "Operation": {
+      "Name": "TО #6-1 КРУГЛОШЛИФОВАЛЬHАЯ | 39",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 47,
+      "OperationId": 47,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 56,
+      "Name": "ин.450 Vсenter"
+    },
+    "Batch": {
+      "Id": 202,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 28,
+      "OrderNumber": "000028",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T16:58:00Z",
+    "StartExecutionDate": "2019-01-30T16:58:00Z",
+    "FinishDate": "2019-01-30T17:34:00Z",
+    "WorkCenterFinishDate": "2019-01-30T17:34:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 45,
+    "Operation": {
+      "Name": "TО #6-1 КРУГЛОШЛИФОВАЛЬHАЯ | 39",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 47,
+      "OperationId": 47,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 56,
+      "Name": "ин.450 Vсenter"
+    },
+    "Batch": {
+      "Id": 211,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 38,
+      "OrderNumber": "000038",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T17:34:00Z",
+    "StartExecutionDate": "2019-01-30T17:34:00Z",
+    "FinishDate": "2019-01-30T18:10:00Z",
+    "WorkCenterFinishDate": "2019-01-30T18:10:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 48,
+    "Operation": {
+      "Name": "TО #6-2 ПЛОСКОШЛИФОВАЛЬHАЯ | 760",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 23,
+      "OperationId": 23,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 45,
+      "Name": "ин.439 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 204,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 30,
+      "OrderNumber": "000030",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T15:16:00Z",
+    "StartExecutionDate": "2019-01-30T15:16:00Z",
+    "FinishDate": "2019-01-30T15:58:00Z",
+    "WorkCenterFinishDate": "2019-01-30T15:58:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 50,
+    "Operation": {
+      "Name": "TО #6-2 СЛЕСАРHАЯ | 112",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 2,
+      "OperationId": 2,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 52,
+      "Name": "ин.161 HARDINGE"
+    },
+    "Batch": {
+      "Id": 227,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 53,
+      "OrderNumber": "000053",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T15:55:00Z",
+    "StartExecutionDate": "2019-01-30T15:55:00Z",
+    "FinishDate": "2019-01-30T16:24:00Z",
+    "WorkCenterFinishDate": "2019-01-30T16:24:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 51,
+    "Operation": {
+      "Name": "TО #6-3 СЛЕСАРHАЯ | 452",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 3,
+      "OperationId": 3,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 52,
+      "Name": "ин.161 HARDINGE"
+    },
+    "Batch": {
+      "Id": 179,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 5,
+      "OrderNumber": "000005",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T13:29:00Z",
+    "StartExecutionDate": "2019-01-30T13:29:00Z",
+    "FinishDate": "2019-01-30T14:14:00Z",
+    "WorkCenterFinishDate": "2019-01-30T14:14:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 52,
+    "Operation": {
+      "Name": "TО #6-3 СЛЕСАРHАЯ | 452",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 3,
+      "OperationId": 3,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 52,
+      "Name": "ин.161 HARDINGE"
+    },
+    "Batch": {
+      "Id": 203,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 29,
+      "OrderNumber": "000029",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T14:14:00Z",
+    "StartExecutionDate": "2019-01-30T14:14:00Z",
+    "FinishDate": "2019-01-30T14:59:00Z",
+    "WorkCenterFinishDate": "2019-01-30T14:59:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 53,
+    "Operation": {
+      "Name": "TО #6-2 ФРЕЗЕРHАЯ С ЧПУ | 835",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 48,
+      "OperationId": 48,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 54,
+      "Name": "ин.471 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 239,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 64,
+      "OrderNumber": "000064",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T16:22:00Z",
+    "StartExecutionDate": "2019-01-30T16:22:00Z",
+    "FinishDate": "2019-01-30T16:43:00Z",
+    "WorkCenterFinishDate": "2019-01-30T16:43:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 54,
+    "Operation": {
+      "Name": "TО #6-2 СЛЕСАРHАЯ | 112",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 2,
+      "OperationId": 2,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 52,
+      "Name": "ин.161 HARDINGE"
+    },
+    "Batch": {
+      "Id": 196,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 22,
+      "OrderNumber": "000022",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T15:02:00Z",
+    "StartExecutionDate": "2019-01-30T15:02:00Z",
+    "FinishDate": "2019-01-30T15:31:00Z",
+    "WorkCenterFinishDate": "2019-01-30T15:31:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 55,
+    "Operation": {
+      "Name": "TО #6-2 СЛЕСАРHАЯ | 112",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 2,
+      "OperationId": 2,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 52,
+      "Name": "ин.161 HARDINGE"
+    },
+    "Batch": {
+      "Id": 253,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 79,
+      "OrderNumber": "000079",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T10:45:00Z",
+    "StartExecutionDate": "2019-01-30T10:45:00Z",
+    "FinishDate": "2019-01-30T11:14:00Z",
+    "WorkCenterFinishDate": "2019-01-30T11:14:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 56,
+    "Operation": {
+      "Name": "TО #6-3 СЛЕСАРHАЯ | 452",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 3,
+      "OperationId": 3,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 52,
+      "Name": "ин.161 HARDINGE"
+    },
+    "Batch": {
+      "Id": 196,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 22,
+      "OrderNumber": "000022",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T16:24:00Z",
+    "StartExecutionDate": "2019-01-30T16:24:00Z",
+    "FinishDate": "2019-01-30T17:09:00Z",
+    "WorkCenterFinishDate": "2019-01-30T17:09:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 57,
+    "Operation": {
+      "Name": "TО #6-1 ПЛОСКОШЛИФОВАЛЬHАЯ | 208",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 22,
+      "OperationId": 22,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 45,
+      "Name": "ин.439 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 224,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 51,
+      "OrderNumber": "000051",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T15:58:00Z",
+    "StartExecutionDate": "2019-01-30T15:58:00Z",
+    "FinishDate": "2019-01-30T16:46:00Z",
+    "WorkCenterFinishDate": "2019-01-30T16:46:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 59,
+    "Operation": {
+      "Name": "TО #6-3 СЛЕСАРHАЯ | 452",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 3,
+      "OperationId": 3,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 52,
+      "Name": "ин.161 HARDINGE"
+    },
+    "Batch": {
+      "Id": 236,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 63,
+      "OrderNumber": "000063",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T17:09:00Z",
+    "StartExecutionDate": "2019-01-30T17:09:00Z",
+    "FinishDate": "2019-01-30T17:54:00Z",
+    "WorkCenterFinishDate": "2019-01-30T17:54:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 63,
+    "Operation": {
+      "Name": "TО #6-2 ОТЖИГ | 118",
+      "ProductName": "Продукт #2",
+      "ProductId": 2,
+      "ModeId": 12,
+      "OperationId": 12,
+      "TechnologyProcessId": 2
+    },
+    "WorkCenter": {
+      "Id": 50,
+      "Name": "ин.22 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 191,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 17,
+      "OrderNumber": "000017",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T12:02:00Z",
+    "StartExecutionDate": "2019-01-30T12:02:00Z",
+    "FinishDate": "2019-01-30T12:48:00Z",
+    "WorkCenterFinishDate": "2019-01-30T12:48:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 66,
+    "Operation": {
+      "Name": "TО #6-3 ОТЖИГ | 718",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 49,
+      "OperationId": 49,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 50,
+      "Name": "ин.22 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 249,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 75,
+      "OrderNumber": "000075",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T14:55:00Z",
+    "StartExecutionDate": "2019-01-30T14:55:00Z",
+    "FinishDate": "2019-01-30T15:23:00Z",
+    "WorkCenterFinishDate": "2019-01-30T15:23:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 70,
+    "Operation": {
+      "Name": "TО #6-2 ФРЕЗЕРHАЯ С ЧПУ | 835",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 48,
+      "OperationId": 48,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 54,
+      "Name": "ин.471 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 205,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 31,
+      "OrderNumber": "000031",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T15:10:00Z",
+    "StartExecutionDate": "2019-01-30T15:10:00Z",
+    "FinishDate": "2019-01-30T15:31:00Z",
+    "WorkCenterFinishDate": "2019-01-30T15:31:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 71,
+    "Operation": {
+      "Name": "TО #6-2 ФРЕЗЕРHАЯ С ЧПУ | 835",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 48,
+      "OperationId": 48,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 54,
+      "Name": "ин.471 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 251,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 77,
+      "OrderNumber": "000077",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T10:28:00Z",
+    "StartExecutionDate": "2019-01-30T10:28:00Z",
+    "FinishDate": "2019-01-30T10:49:00Z",
+    "WorkCenterFinishDate": "2019-01-30T10:49:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 73,
+    "Operation": {
+      "Name": "TО #6-3 ОТЖИГ | 718",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 49,
+      "OperationId": 49,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 50,
+      "Name": "ин.22 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 205,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 31,
+      "OrderNumber": "000031",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T15:31:00Z",
+    "StartExecutionDate": "2019-01-30T15:31:00Z",
+    "FinishDate": "2019-01-30T15:59:00Z",
+    "WorkCenterFinishDate": "2019-01-30T15:59:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 81,
+    "Operation": {
+      "Name": "TО #6-2 ФРЕЗЕРHАЯ С ЧПУ | 835",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 48,
+      "OperationId": 48,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 54,
+      "Name": "ин.471 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 240,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 66,
+      "OrderNumber": "000066",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T16:58:00Z",
+    "StartExecutionDate": "2019-01-30T16:58:00Z",
+    "FinishDate": "2019-01-30T17:19:00Z",
+    "WorkCenterFinishDate": "2019-01-30T17:19:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 83,
+    "Operation": {
+      "Name": "TО #6-3 ФРЕЗЕРHАЯ С ЧПУ | 271",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 24,
+      "OperationId": 24,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 53,
+      "Name": "ин.472 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 204,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 30,
+      "OrderNumber": "000030",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T15:58:00Z",
+    "StartExecutionDate": "2019-01-30T15:58:00Z",
+    "FinishDate": "2019-01-30T16:25:00Z",
+    "WorkCenterFinishDate": "2019-01-30T16:25:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 88,
+    "Operation": {
+      "Name": "TО #6-3 ОТЖИГ | 718",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 49,
+      "OperationId": 49,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 50,
+      "Name": "ин.22 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 251,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 77,
+      "OrderNumber": "000077",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T10:49:00Z",
+    "StartExecutionDate": "2019-01-30T10:49:00Z",
+    "FinishDate": "2019-01-30T11:17:00Z",
+    "WorkCenterFinishDate": "2019-01-30T11:17:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 92,
+    "Operation": {
+      "Name": "TО #6-2 ФРЕЗЕРHАЯ С ЧПУ | 835",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 48,
+      "OperationId": 48,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 54,
+      "Name": "ин.471 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 202,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 28,
+      "OrderNumber": "000028",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T17:34:00Z",
+    "StartExecutionDate": "2019-01-30T17:34:00Z",
+    "FinishDate": "2019-01-30T17:55:00Z",
+    "WorkCenterFinishDate": "2019-01-30T17:55:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 93,
+    "Operation": {
+      "Name": "TО #6-3 ОТЖИГ | 718",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 49,
+      "OperationId": 49,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 50,
+      "Name": "ин.22 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 240,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 66,
+      "OrderNumber": "000066",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T17:19:00Z",
+    "StartExecutionDate": "2019-01-30T17:19:00Z",
+    "FinishDate": "2019-01-30T17:47:00Z",
+    "WorkCenterFinishDate": "2019-01-30T17:47:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 94,
+    "Operation": {
+      "Name": "TО #6-4 ОТЖИГ | 116",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 4,
+      "OperationId": 4,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 50,
+      "Name": "ин.22 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 196,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 22,
+      "OrderNumber": "000022",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T17:47:00Z",
+    "StartExecutionDate": "2019-01-30T18:02:00Z",
+    "FinishDate": "2019-01-30T18:17:00Z",
+    "WorkCenterFinishDate": "2019-01-30T18:17:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 96,
+    "Operation": {
+      "Name": "TО #6-2 ФРЕЗЕРHАЯ С ЧПУ | 835",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 48,
+      "OperationId": 48,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 53,
+      "Name": "ин.472 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 198,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 24,
+      "OrderNumber": "000024",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T16:25:00Z",
+    "StartExecutionDate": "2019-01-30T16:25:00Z",
+    "FinishDate": "2019-01-30T16:46:00Z",
+    "WorkCenterFinishDate": "2019-01-30T16:46:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 98,
+    "Operation": {
+      "Name": "TО #6-2 ПЛОСКОШЛИФОВАЛЬHАЯ | 760",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 23,
+      "OperationId": 23,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 51,
+      "Name": "ин.399 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 175,
+      "Number": 1,
+      "Quantity": 7,
+      "OrderId": 2,
+      "OrderNumber": "000002",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T16:16:00Z",
+    "StartExecutionDate": "2019-01-30T16:16:00Z",
+    "FinishDate": "2019-01-30T21:10:00Z",
+    "WorkCenterFinishDate": "2019-01-30T21:10:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 100,
+    "Operation": {
+      "Name": "TО #6-4 ОТЖИГ | 116",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 4,
+      "OperationId": 4,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 50,
+      "Name": "ин.22 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 203,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 29,
+      "OrderNumber": "000029",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T15:59:00Z",
+    "StartExecutionDate": "2019-01-30T16:14:00Z",
+    "FinishDate": "2019-01-30T16:29:00Z",
+    "WorkCenterFinishDate": "2019-01-30T16:29:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 102,
+    "Operation": {
+      "Name": "TО #6-3 ФРЕЗЕРHАЯ С ЧПУ | 271",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 24,
+      "OperationId": 24,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 54,
+      "Name": "ин.471 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 234,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 60,
+      "OrderNumber": "000060",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T15:31:00Z",
+    "StartExecutionDate": "2019-01-30T15:31:00Z",
+    "FinishDate": "2019-01-30T15:58:00Z",
+    "WorkCenterFinishDate": "2019-01-30T15:58:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 108,
+    "Operation": {
+      "Name": "TО #6-4 ОТЖИГ | 116",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 4,
+      "OperationId": 4,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 50,
+      "Name": "ин.22 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 179,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 5,
+      "OrderNumber": "000005",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T14:14:00Z",
+    "StartExecutionDate": "2019-01-30T14:29:00Z",
+    "FinishDate": "2019-01-30T14:44:00Z",
+    "WorkCenterFinishDate": "2019-01-30T14:44:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 116,
+    "Operation": {
+      "Name": "TО #6-3 ФРЕЗЕРHАЯ С ЧПУ | 271",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 24,
+      "OperationId": 24,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 54,
+      "Name": "ин.471 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 178,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 4,
+      "OrderNumber": "000004",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T11:25:00Z",
+    "StartExecutionDate": "2019-01-30T11:25:00Z",
+    "FinishDate": "2019-01-30T11:52:00Z",
+    "WorkCenterFinishDate": "2019-01-30T11:52:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 117,
+    "Operation": {
+      "Name": "TО #6-2 ПЛОСКОШЛИФОВАЛЬHАЯ | 760",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 23,
+      "OperationId": 23,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 45,
+      "Name": "ин.439 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 224,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 51,
+      "OrderNumber": "000051",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T16:46:00Z",
+    "StartExecutionDate": "2019-01-30T16:46:00Z",
+    "FinishDate": "2019-01-30T17:28:00Z",
+    "WorkCenterFinishDate": "2019-01-30T17:28:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 119,
+    "Operation": {
+      "Name": "TО #6-1 ПЛОСКОШЛИФОВАЛЬHАЯ | 208",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 22,
+      "OperationId": 22,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 45,
+      "Name": "ин.439 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 206,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 32,
+      "OrderNumber": "000032",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T17:28:00Z",
+    "StartExecutionDate": "2019-01-30T17:28:00Z",
+    "FinishDate": "2019-01-30T18:16:00Z",
+    "WorkCenterFinishDate": "2019-01-30T18:16:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 121,
+    "Operation": {
+      "Name": "TО #6-2 ФРЕЗЕРHАЯ С ЧПУ | 835",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 48,
+      "OperationId": 48,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 53,
+      "Name": "ин.472 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 250,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 76,
+      "OrderNumber": "000076",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T13:36:00Z",
+    "StartExecutionDate": "2019-01-30T13:36:00Z",
+    "FinishDate": "2019-01-30T13:57:00Z",
+    "WorkCenterFinishDate": "2019-01-30T13:57:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 124,
+    "Operation": {
+      "Name": "TО #6-3 ОТЖИГ | 718",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 49,
+      "OperationId": 49,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 50,
+      "Name": "ин.22 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 198,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 24,
+      "OrderNumber": "000024",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T16:46:00Z",
+    "StartExecutionDate": "2019-01-30T16:46:00Z",
+    "FinishDate": "2019-01-30T17:14:00Z",
+    "WorkCenterFinishDate": "2019-01-30T17:14:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 132,
+    "Operation": {
+      "Name": "TО #6-3 ОТЖИГ | 718",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 49,
+      "OperationId": 49,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 50,
+      "Name": "ин.22 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 199,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 25,
+      "OrderNumber": "000025",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T12:48:00Z",
+    "StartExecutionDate": "2019-01-30T12:48:00Z",
+    "FinishDate": "2019-01-30T13:16:00Z",
+    "WorkCenterFinishDate": "2019-01-30T13:16:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 133,
+    "Operation": {
+      "Name": "TО #6-2 ФРЕЗЕРHАЯ С ЧПУ | 835",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 48,
+      "OperationId": 48,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 53,
+      "Name": "ин.472 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 208,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 34,
+      "OrderNumber": "000034",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T12:38:00Z",
+    "StartExecutionDate": "2019-01-30T12:38:00Z",
+    "FinishDate": "2019-01-30T12:59:00Z",
+    "WorkCenterFinishDate": "2019-01-30T12:59:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 138,
+    "Operation": {
+      "Name": "TО #6-3 ОТЖИГ | 718",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 49,
+      "OperationId": 49,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 50,
+      "Name": "ин.22 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 208,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 34,
+      "OrderNumber": "000034",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T13:16:00Z",
+    "StartExecutionDate": "2019-01-30T13:16:00Z",
+    "FinishDate": "2019-01-30T13:44:00Z",
+    "WorkCenterFinishDate": "2019-01-30T13:44:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 144,
+    "Operation": {
+      "Name": "TО #6-3 ОТЖИГ | 718",
+      "ProductName": "Продукт #5",
+      "ProductId": 5,
+      "ModeId": 49,
+      "OperationId": 49,
+      "TechnologyProcessId": 5
+    },
+    "WorkCenter": {
+      "Id": 50,
+      "Name": "ин.22 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 228,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 54,
+      "OrderNumber": "000054",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T11:25:00Z",
+    "StartExecutionDate": "2019-01-30T11:25:00Z",
+    "FinishDate": "2019-01-30T11:53:00Z",
+    "WorkCenterFinishDate": "2019-01-30T11:53:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 219,
+    "Operation": {
+      "Name": "TО #6-5 ФРЕЗЕРHАЯ С ЧПУ | 656",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 5,
+      "OperationId": 5,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 53,
+      "Name": "ин.472 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 203,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 29,
+      "OrderNumber": "000029",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T16:46:00Z",
+    "StartExecutionDate": "2019-01-30T16:46:00Z",
+    "FinishDate": "2019-01-30T17:03:00Z",
+    "WorkCenterFinishDate": "2019-01-30T17:03:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 258,
+    "Operation": {
+      "Name": "TО #6-6 ФРЕЗЕРHАЯ С ЧПУ | 695",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 6,
+      "OperationId": 6,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 53,
+      "Name": "ин.472 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 203,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 29,
+      "OrderNumber": "000029",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T17:03:00Z",
+    "StartExecutionDate": "2019-01-30T17:03:00Z",
+    "FinishDate": "2019-01-30T17:31:00Z",
+    "WorkCenterFinishDate": "2019-01-30T17:31:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 270,
+    "Operation": {
+      "Name": "TО #6-5 ФРЕЗЕРHАЯ С ЧПУ | 656",
+      "ProductName": "Продукт #1",
+      "ProductId": 1,
+      "ModeId": 5,
+      "OperationId": 5,
+      "TechnologyProcessId": 1
+    },
+    "WorkCenter": {
+      "Id": 53,
+      "Name": "ин.472 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 179,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 5,
+      "OrderNumber": "000005",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T14:55:00Z",
+    "StartExecutionDate": "2019-01-30T14:55:00Z",
+    "FinishDate": "2019-01-30T15:12:00Z",
+    "WorkCenterFinishDate": "2019-01-30T15:12:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  },
+  {
+    "Id": 350,
+    "Operation": {
+      "Name": "TО #6-3 ФРЕЗЕРHАЯ С ЧПУ | 271",
+      "ProductName": "Продукт #3",
+      "ProductId": 3,
+      "ModeId": 24,
+      "OperationId": 24,
+      "TechnologyProcessId": 3
+    },
+    "WorkCenter": {
+      "Id": 53,
+      "Name": "ин.472 CHEVALIER"
+    },
+    "Batch": {
+      "Id": 224,
+      "Number": 1,
+      "Quantity": 1,
+      "OrderId": 51,
+      "OrderNumber": "000051",
+      "StartOperationId": null
+    },
+    "StartDate": "2019-01-30T17:31:00Z",
+    "StartExecutionDate": "2019-01-30T17:31:00Z",
+    "FinishDate": "2019-01-30T17:58:00Z",
+    "WorkCenterFinishDate": "2019-01-30T17:58:00Z",
+    "Timestamp": 1548769958372,
+    "FactStartDate": null,
+    "FactFinishDate": null,
+    "FactWorkCenterFinishDate": null,
+    "FactStartExecutionDate": null,
+    "Status": "New"
+  }
+]

@@ -15,7 +15,7 @@ class StageScheduleItemActionUseCase(val scheduleItemId: Long, val scheduleItemA
         get() = Dispatchers.IO
 
     override suspend fun run(): Boolean {
-        api.postScheduleItemAction(scheduleItemId, scheduleItemActionIM).execute()
+//        api.postScheduleItemAction(scheduleItemId, scheduleItemActionIM).execute()
         return true
     }
 

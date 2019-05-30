@@ -51,11 +51,11 @@ data class ScheduleItemDTO(
     val FactWorkCenterFinishDate: String? = null,
     val FactStartExecutionDate: String? = null,
     val PlanCount: Int? = null,
-    val FactCount: Int? = null,
+    var FactCount: Int? = null,
     val QuarantineCount: Int? = null,
     val Leftover: ScheduleItemLeftoverDTO? = null,
     val LeftoverSolution: ScheduleItemLeftoverDTO? = null,
-    @SerializedName("Status") val status: Status? = null
+    @SerializedName("Status") var status: Status? = null
 ) {
 
     /**

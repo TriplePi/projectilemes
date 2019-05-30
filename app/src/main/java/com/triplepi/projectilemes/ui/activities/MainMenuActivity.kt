@@ -1,9 +1,16 @@
 package com.triplepi.projectilemes.ui.activities
 
+import android.annotation.TargetApi
+import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.support.annotation.RequiresApi
+import android.transition.Slide
+import android.transition.TransitionManager
+import android.view.Gravity
+import android.view.LayoutInflater
+import android.view.View
 import android.widget.*
 import com.triplepi.projectilemes.R
 import com.triplepi.projectilemes.extensions.bind
@@ -11,7 +18,9 @@ import com.triplepi.projectilemes.mvp.MvpActivity
 import com.triplepi.projectilemes.presentation.MainMenuPresenter
 import com.triplepi.projectilemes.presentation.MainMenuView
 import com.triplepi.projectilemes.data.network.dto.ScheduleItemDTO
+import com.triplepi.projectilemes.domain.interactors.LoadScheduleUseCase
 import kotlinx.android.synthetic.main.activity_main_menu.*
+import java.util.function.Consumer
 
 class MainMenuActivity : MvpActivity<MainMenuView, MainMenuPresenter>(), MainMenuView {
     private val scheduleButton: Button by bind(R.id.schedule)
@@ -28,12 +37,20 @@ class MainMenuActivity : MvpActivity<MainMenuView, MainMenuPresenter>(), MainMen
     private val quarantineView: EditText by bind(R.id.quarantine)
     private val productView: TextView by bind(R.id.product_value)
     private val operationView: TextView by bind(R.id.operation_value)
-    private val amountView: TextView by bind(R.id.amount_value)
+    override val amountView: TextView by bind(R.id.amount_value)
     override val quarantineCause: Spinner by bind(R.id.rejection_cause)
     override val processed: Int
-        get() = processedView.text.toString().toInt()
+        get() {
+            if (processedView.text.toString() == "")
+                return 0
+            return processedView.text.toString().toInt()
+        }
     override val quarantine: Int
-        get() = quarantineView.text.toString().toInt()
+        get() {
+            if (quarantineView.text.toString() == "")
+                return 0
+            return quarantineView.text.toString().toInt()
+        }
 
     override val status: TextView by bind(R.id.operation_status_label)
 
@@ -43,8 +60,11 @@ class MainMenuActivity : MvpActivity<MainMenuView, MainMenuPresenter>(), MainMen
     override var operation: String = ""
         get() = operationView.text as String
 
-    override var amount: String = ""
+    override var amount: String
         get() = amountView.text as String
+        set(value) {
+            amountView.text = value
+        }
 
 
     override var scheduleItemDTO: ScheduleItemDTO? = null
@@ -64,6 +84,8 @@ class MainMenuActivity : MvpActivity<MainMenuView, MainMenuPresenter>(), MainMen
         pauseTaskButton.setOnClickListener { presenter.onPauseTaskButtonClicked() }
         continueTaskButton.setOnClickListener { presenter.onContinueTaskButtonClicked() }
         doneTaskButton.setOnClickListener { presenter.onDoneTaskButtonClicked() }
+        cannotAcceptButton.setOnClickListener { presenter.onRejectButtonClicked() }
+
 
         stageButton.isEnabled = false
         startAdjustmentButton.isEnabled = true
@@ -72,9 +94,104 @@ class MainMenuActivity : MvpActivity<MainMenuView, MainMenuPresenter>(), MainMen
         continueTaskButton.isEnabled = false
         doneTaskButton.isEnabled = false
         status.text = "Новая"
+        LoadScheduleUseCase().execute { }
         fillSpinner()
         presenter.fillCurrentOperation()
         fillCurrentScheduleItem()
+    }
+
+    @RequiresApi(Build.VERSION_CODES.M)
+    override fun showCallPopup() {
+        val inflater: LayoutInflater = getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+        val view = inflater.inflate(R.layout.call_popup, null)
+        val popupWindow = PopupWindow(
+            view,
+            LinearLayout.LayoutParams.WRAP_CONTENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        popupWindow.elevation = 10.0F
+        val slideIn = Slide()
+        slideIn.slideEdge = Gravity.TOP
+        popupWindow.enterTransition = slideIn
+        val slideOut = Slide()
+        slideOut.slideEdge = Gravity.END
+        popupWindow.exitTransition = slideOut
+
+
+        val cancelPopupButton = view.findViewById<Button>(R.id.popup_back)
+        val buttons: List<Button> = listOf(
+            view.findViewById(R.id.call_master),
+            view.findViewById(R.id.call_service),
+            view.findViewById(R.id.call_technologist),
+            view.findViewById(R.id.call_medic),
+            view.findViewById(R.id.call_otk),
+            view.findViewById(R.id.call_adjuster)
+        )
+
+
+        var message = ""
+        buttons.forEach { x ->
+            x.setOnClickListener { message = "Вызов отправлен";popupWindow.dismiss() }
+
+            cancelPopupButton.setOnClickListener {
+                popupWindow.dismiss()
+            }
+
+            popupWindow.setOnDismissListener {
+                Toast.makeText(applicationContext, message, Toast.LENGTH_SHORT).show()
+            }
+            TransitionManager.beginDelayedTransition(findViewById(R.id.main_menu))
+            popupWindow.showAtLocation(
+                findViewById(R.id.main_menu), // Location to display popup window
+                Gravity.CENTER, // Exact position of layout to display popup
+                0, // X offset
+                0 // Y offset
+            )
+        }
+    }
+
+    @TargetApi(Build.VERSION_CODES.O)
+    @RequiresApi(Build.VERSION_CODES.M)
+    override fun showRejectPopup() {
+        val inflater: LayoutInflater = getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+        val view = inflater.inflate(R.layout.reject_popup, null)
+        val popupWindow = PopupWindow(
+            view,
+            LinearLayout.LayoutParams.WRAP_CONTENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        popupWindow.elevation = 10.0F
+        val slideIn = Slide()
+        slideIn.slideEdge = Gravity.TOP
+        popupWindow.enterTransition = slideIn
+        val slideOut = Slide()
+        slideOut.slideEdge = Gravity.END
+        popupWindow.exitTransition = slideOut
+
+
+        val cancelPopupButton = view.findViewById<Button>(R.id.cancel_reject)
+        val buttons: List<Button> = listOf(
+            view.findViewById(R.id.wc_broken),
+            view.findViewById(R.id.no_resource),
+            view.findViewById(R.id.no_tool)
+        )
+
+
+        buttons.forEach { x ->
+            x.setOnClickListener { presenter.onRejectionCauseButtonClicked();popupWindow.dismiss() }
+
+            cancelPopupButton.setOnClickListener {
+                popupWindow.dismiss()
+            }
+
+            TransitionManager.beginDelayedTransition(findViewById(R.id.main_menu))
+            popupWindow.showAtLocation(
+                findViewById(R.id.main_menu), // Location to display popup window
+                Gravity.CENTER, // Exact position of layout to display popup
+                0, // X offset
+                0 // Y offset
+            )
+        }
     }
 
     override fun showScheduleScreen() {
@@ -99,5 +216,9 @@ class MainMenuActivity : MvpActivity<MainMenuView, MainMenuPresenter>(), MainMen
         )
         rejectionCauseAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         rejection_cause.adapter = rejectionCauseAdapter
+    }
+
+    override fun showMessage(message:String){
+        Toast.makeText(applicationContext, message, Toast.LENGTH_LONG).show()
     }
 }

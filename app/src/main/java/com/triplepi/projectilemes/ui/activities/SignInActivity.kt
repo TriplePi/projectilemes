@@ -62,7 +62,7 @@ class SignInActivity : MvpActivity<SignInView, SignInPresenter>(), SignInView {
     }
 
     override fun showError() {
-        Toast.makeText(this, "Invalid password", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Некорректные учётные данные", Toast.LENGTH_LONG).show()
     }
 
     override fun createPresenter() = SignInPresenter(this)

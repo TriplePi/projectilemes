@@ -2,6 +2,7 @@ package com.triplepi.projectilemes.presentation
 
 import android.os.Build
 import android.support.annotation.RequiresApi
+import com.triplepi.projectilemes.App
 import com.triplepi.projectilemes.domain.interactors.LoadScheduleUseCase
 import com.triplepi.projectilemes.mvp.MvpPresenter
 import com.triplepi.projectilemes.mvp.MvpView
@@ -13,7 +14,7 @@ import org.joda.time.LocalDateTime
 
 interface ScheduleView : MvpView {
 
-    var scheduleList: List<ScheduleAdapter.ScheduleItem>
+    var scheduleList: MutableList<ScheduleAdapter.ScheduleItem>
     fun showMainMenuScreen()
 
 
@@ -27,7 +28,8 @@ class SchedulePresenter(view: ScheduleView) : MvpPresenter<ScheduleView>(view) {
 
     @RequiresApi(Build.VERSION_CODES.O)
     fun loadSchedule() {
-        LoadScheduleUseCase().execute { list -> view.scheduleList = list.map { x -> convertDtoToScheduleItem(x) } }
+        view.scheduleList = (App.INSTANCE.schedule.map { x->convertDtoToScheduleItem(x) }).toMutableList()
+//        LoadScheduleUseCase().execute { list -> view.scheduleList = list.map { x -> convertDtoToScheduleItem(x) } }
     }
 
     @RequiresApi(Build.VERSION_CODES.O)

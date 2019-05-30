@@ -25,7 +25,7 @@ package com.triplepi.projectilemes.data.network.dto
 data class ScheduleItemBatchDTO (
     val Id: kotlin.Long? = null,
     val Number: kotlin.Int? = null,
-    val Quantity: kotlin.Int? = null,
+    var Quantity: kotlin.Int? = null,
     val FactQuantity: kotlin.Int? = null,
     val OrderId: kotlin.Long? = null,
     val OrderNumber: kotlin.String? = null,

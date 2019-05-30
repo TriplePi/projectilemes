@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/call_popup"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:background="@drawable/popup_border"
+        >
+
+    <TextView
+            android:id="@+id/call_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/call_label_text"
+            />
+
+    <Button
+            android:id="@+id/call_master"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/call_label"
+            app:layout_constraintEnd_toStartOf="@id/call_service"
+            app:layout_constraintBottom_toTopOf="@id/call_technologist"
+            android:text="@string/call_master_text"
+            />
+
+    <Button
+            android:id="@+id/call_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/call_label"
+            app:layout_constraintStart_toEndOf="@id/call_master"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/call_service_text"
+            />
+
+    <Button
+            android:id="@+id/call_technologist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/call_master"
+            app:layout_constraintStart_toStartOf="@id/call_master"
+            android:text="@string/call_technologist_text"
+
+            />
+
+    <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/call_medic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/call_technologist"
+            app:layout_constraintTop_toBottomOf="@id/call_service"
+            app:layout_constraintEnd_toEndOf="@id/call_service"
+            android:text="@string/call_medic_text"
+            />
+    <Button
+            android:id="@+id/call_otk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/call_technologist"
+            app:layout_constraintStart_toStartOf="@id/call_master"
+            android:text="@string/call_otk_text"
+            />
+
+    <Button
+            android:id="@+id/call_adjuster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/call_otk"
+            app:layout_constraintTop_toBottomOf="@id/call_medic"
+            app:layout_constraintEnd_toEndOf="@id/call_medic"
+            android:text="@string/call_adjuster_text"
+            />
+
+    <Button
+            android:id="@+id/popup_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/call_otk"
+            android:text="@string/popup_back_text"
+            />
+
+
+</android.support.constraint.ConstraintLayout>

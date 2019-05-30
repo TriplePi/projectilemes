@@ -16,7 +16,7 @@ import com.triplepi.projectilemes.presentation.ScheduleView
 import com.triplepi.projectilemes.ui.adapters.ScheduleAdapter
 
 class ScheduleActivity : MvpActivity<ScheduleView, SchedulePresenter>(), ScheduleView {
-    override var scheduleList: List<ScheduleAdapter.ScheduleItem> = emptyList()
+    override var scheduleList: MutableList<ScheduleAdapter.ScheduleItem> = mutableListOf()
     private val scheduleListView: RecyclerView by bind(R.id.schedule_view)
     private val backButton: Button by bind(R.id.back)
 
