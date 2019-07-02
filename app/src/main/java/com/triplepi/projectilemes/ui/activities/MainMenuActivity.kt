@@ -10,17 +10,16 @@ import android.transition.Slide
 import android.transition.TransitionManager
 import android.view.Gravity
 import android.view.LayoutInflater
-import android.view.View
 import android.widget.*
 import com.triplepi.projectilemes.R
+import com.triplepi.projectilemes.data.network.dto.ScheduleItemDTO
+import com.triplepi.projectilemes.data.network.dto.ScheduleItemWorkCenterDTO
+import com.triplepi.projectilemes.domain.interactors.LoadScheduleUseCase
 import com.triplepi.projectilemes.extensions.bind
 import com.triplepi.projectilemes.mvp.MvpActivity
 import com.triplepi.projectilemes.presentation.MainMenuPresenter
 import com.triplepi.projectilemes.presentation.MainMenuView
-import com.triplepi.projectilemes.data.network.dto.ScheduleItemDTO
-import com.triplepi.projectilemes.domain.interactors.LoadScheduleUseCase
 import kotlinx.android.synthetic.main.activity_main_menu.*
-import java.util.function.Consumer
 
 class MainMenuActivity : MvpActivity<MainMenuView, MainMenuPresenter>(), MainMenuView {
     private val scheduleButton: Button by bind(R.id.schedule)
@@ -68,6 +67,7 @@ class MainMenuActivity : MvpActivity<MainMenuView, MainMenuPresenter>(), MainMen
 
 
     override var scheduleItemDTO: ScheduleItemDTO? = null
+    override var scheduleItemWorkCenterDTO: ScheduleItemWorkCenterDTO? = null
 
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -94,7 +94,7 @@ class MainMenuActivity : MvpActivity<MainMenuView, MainMenuPresenter>(), MainMen
         continueTaskButton.isEnabled = false
         doneTaskButton.isEnabled = false
         status.text = "Новая"
-        LoadScheduleUseCase().execute { }
+        LoadScheduleUseCase(workCenterId = scheduleItemWorkCenterDTO?.Id!!).execute { }
         fillSpinner()
         presenter.fillCurrentOperation()
         fillCurrentScheduleItem()

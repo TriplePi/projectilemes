@@ -2,7 +2,6 @@ package com.triplepi.projectilemes.presentation
 
 import android.widget.Spinner
 import com.triplepi.projectilemes.App
-import com.triplepi.projectilemes.domain.interactors.SignInUseCase
 import com.triplepi.projectilemes.mvp.MvpPresenter
 import com.triplepi.projectilemes.mvp.MvpView
 

@@ -97,7 +97,7 @@ interface Api {
 //
 //    schedule
     @GET("/api/schedule")
-    fun getSchedule(@Query("minTs") minTs: Long?, @Query("begin") begin: String?, @Query("end") end: String?): Call<List<ScheduleItemDTO>>
+    fun getSchedule(@Query("workCenterId") workCenterId: Long?, @Query("begin") begin: String?, @Query("end") end: String?): Call<List<ScheduleItemDTO>>
 
     //    @POST("/api/schedule")
     @POST("/api/schedule/{id}/actions")
@@ -116,10 +116,10 @@ interface Api {
 //
 ////    workcenter
     @GET("/api/workcenter")
-    fun getWorkCenter(): Call<List<WorkCenterIM>>
+    fun getWorkCenter(): Call<List<WorkCenterDTO>>
 
     @GET("/api/workcenter/{workCenterId}")
-    fun getWorkCenterById(@Path("workCenterId") workCenterId: Long): Call<WorkCenterIM>
+    fun getWorkCenterById(@Path("workCenterId") workCenterId: Long): Call<WorkCenterDTO>
 
 
 //    @POST("/api/workcenter")

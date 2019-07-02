@@ -1,9 +1,8 @@
 package com.triplepi.projectilemes.ui.activities
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import com.google.zxing.Result
-import com.triplepi.projectilemes.R
 import me.dm7.barcodescanner.zxing.ZXingScannerView
 
 class ScanActivity : AppCompatActivity(), ZXingScannerView.ResultHandler {
@@ -28,6 +27,7 @@ class ScanActivity : AppCompatActivity(), ZXingScannerView.ResultHandler {
     }
 
     override fun handleResult(rawResult: Result) {
+        rawResult.text
         onBackPressed()
     }
 }

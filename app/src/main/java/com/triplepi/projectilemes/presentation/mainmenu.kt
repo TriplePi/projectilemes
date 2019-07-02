@@ -1,22 +1,17 @@
 package com.triplepi.projectilemes.presentation
 
+import android.annotation.TargetApi
 import android.os.Build
 import android.support.annotation.RequiresApi
+import android.widget.Button
+import android.widget.Spinner
+import android.widget.TextView
 import com.triplepi.projectilemes.data.network.dto.*
 import com.triplepi.projectilemes.domain.interactors.LoadScheduleUseCase
+import com.triplepi.projectilemes.domain.interactors.StageScheduleItemActionUseCase
 import com.triplepi.projectilemes.mvp.MvpPresenter
 import com.triplepi.projectilemes.mvp.MvpView
-import com.triplepi.projectilemes.domain.interactors.StageScheduleItemActionUseCase
 import java.time.LocalDateTime
-import android.view.MotionEvent
-import android.view.View.OnTouchListener
-import android.view.Gravity
-import android.R
-import android.annotation.TargetApi
-import android.content.Context.LAYOUT_INFLATER_SERVICE
-import android.view.LayoutInflater
-import android.widget.*
-import com.triplepi.projectilemes.App
 
 
 interface MainMenuView : MvpView {
@@ -48,6 +43,7 @@ interface MainMenuView : MvpView {
     fun showRejectPopup()
 
     fun showMessage(message: String)
+    var scheduleItemWorkCenterDTO: ScheduleItemWorkCenterDTO?
 }
 
 class MainMenuPresenter(view: MainMenuView) : MvpPresenter<MainMenuView>(view) {
@@ -77,21 +73,21 @@ class MainMenuPresenter(view: MainMenuView) : MvpPresenter<MainMenuView>(view) {
         view.scheduleItemDTO?.Batch?.Quantity =
             view.scheduleItemDTO?.Batch?.Quantity?.minus((view.processed + view.quarantine))
         fillCurrentOperation()
-//        val progress = ScheduleItemProgressIM(
-//            Processed = ScheduleItemProgressProcessedIM(Count = view.processed),
-//            Quarantine = ScheduleItemProgressQuarantineIM(
-//                Count = view.quarantine,
-//                Comment = view.quarantineCause.selectedItem.toString()
-//            )
-//        )
-//        StageScheduleItemActionUseCase(
-//            view.scheduleItemDTO?.Id!!,
-//            scheduleItemActionIM = ScheduleItemActionIM(
-//                Date = LocalDateTime.now(),
-//                Progress = progress,
-//                action = ScheduleItemActionIM.Action.executePartial
-//            )
-//        ).execute { }
+        val progress = ScheduleItemProgressIM(
+            Processed = ScheduleItemProgressProcessedIM(Count = view.processed),
+            Quarantine = ScheduleItemProgressQuarantineIM(
+                Count = view.quarantine,
+                Comment = view.quarantineCause.selectedItem.toString()
+            )
+        )
+        StageScheduleItemActionUseCase(
+            view.scheduleItemDTO?.Id!!,
+            scheduleItemActionIM = ScheduleItemActionIM(
+                Date = LocalDateTime.now(),
+                Progress = progress,
+                action = ScheduleItemActionIM.Action.executePartial
+            )
+        ).execute { }
         view.stageButton.isEnabled = true
     }
 
@@ -173,7 +169,7 @@ class MainMenuPresenter(view: MainMenuView) : MvpPresenter<MainMenuView>(view) {
             )
         ).execute { }
         view.scheduleItemDTO?.status = ScheduleItemDTO.Status.Finished
-        App.INSTANCE.schedule.removeAt(0)
+//        App.INSTANCE.schedule.removeAt(0)
         view.stageButton.isEnabled = false
         view.startAdjustmentButton.isEnabled = true
         view.acceptToWorkButton.isEnabled = true
@@ -198,11 +194,11 @@ class MainMenuPresenter(view: MainMenuView) : MvpPresenter<MainMenuView>(view) {
 
     @RequiresApi(Build.VERSION_CODES.O)
     fun fillCurrentOperation() {
-        view.scheduleItemDTO = App.INSTANCE.schedule[0]
-//        LoadScheduleUseCase().execute { x ->
-//            if (x.isNotEmpty())
-//                view.scheduleItemDTO = x[0]
-//            else view.scheduleItemDTO = ScheduleItemDTO()
-//        }
+//        view.scheduleItemDTO = App.INSTANCE.schedule[0]
+        LoadScheduleUseCase(view.scheduleItemWorkCenterDTO?.Id!!).execute { x ->
+            if (x.isNotEmpty())
+                view.scheduleItemDTO = x[0]
+            else view.showMessage("Закончились задачи")
+        }
     }
 }

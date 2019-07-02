@@ -4,6 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.*
 import com.triplepi.projectilemes.App
+import com.triplepi.projectilemes.data.network.dto.WorkCenterDTO
+import com.triplepi.projectilemes.domain.interactors.LoadWorkcentersUseCase
 import com.triplepi.projectilemes.extensions.bind
 import com.triplepi.projectilemes.mvp.MvpActivity
 import com.triplepi.projectilemes.presentation.SignInPresenter
@@ -45,12 +47,12 @@ class SignInActivity : MvpActivity<SignInView, SignInPresenter>(), SignInView {
             android.R.layout.simple_spinner_item, usernameList
         )
         usernameAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        val workCenterList = ArrayList<WorkCenterDTO>()
+        LoadWorkcentersUseCase().execute { x->x.forEach { y->workCenterList.add(y) } }
         username.adapter = usernameAdapter
-
-        val workcenterList = App.INSTANCE.workCenters.keys.toMutableList()
-        val workcenterAdapter = ArrayAdapter<String>(
+                val workcenterAdapter = ArrayAdapter<String>(
             this,
-            android.R.layout.simple_spinner_item, workcenterList
+            android.R.layout.simple_spinner_item, workCenterList.map { x->x.Name }
         )
         workcenterAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         workCenter.adapter = workcenterAdapter
