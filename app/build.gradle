@@ -24,7 +24,7 @@ android {
 
         debug {
 //            buildConfigField("String", "API_HOST", "\"https://mesapi.getsandbox.com/\"")
-            buildConfigField("String", "API_HOST", "\"http://172.25.34.177:5000\"")
+            buildConfigField("String", "API_HOST", "\"http://195.54.41.77:13424\"")
         }
         release {
             minifyEnabled false

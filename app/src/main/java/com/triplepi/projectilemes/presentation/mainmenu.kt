@@ -6,6 +6,7 @@ import android.support.annotation.RequiresApi
 import android.widget.Button
 import android.widget.Spinner
 import android.widget.TextView
+import com.triplepi.projectilemes.App
 import com.triplepi.projectilemes.data.network.dto.*
 import com.triplepi.projectilemes.domain.interactors.LoadScheduleUseCase
 import com.triplepi.projectilemes.domain.interactors.StageScheduleItemActionUseCase
@@ -195,7 +196,7 @@ class MainMenuPresenter(view: MainMenuView) : MvpPresenter<MainMenuView>(view) {
     @RequiresApi(Build.VERSION_CODES.O)
     fun fillCurrentOperation() {
 //        view.scheduleItemDTO = App.INSTANCE.schedule[0]
-        LoadScheduleUseCase(view.scheduleItemWorkCenterDTO?.Id!!).execute { x ->
+        LoadScheduleUseCase(App.INSTANCE.workCenterID.toLong()).execute { x ->
             if (x.isNotEmpty())
                 view.scheduleItemDTO = x[0]
             else view.showMessage("Закончились задачи")

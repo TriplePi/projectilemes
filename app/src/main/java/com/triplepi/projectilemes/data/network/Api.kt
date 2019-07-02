@@ -85,8 +85,8 @@ interface Api {
     fun postProductByProductIdProcessesByProcessIdOperations(@Path("productId") productId: Long, @Path("processId") processId: Long, @Body data: TechnologicalOperationIM): Call<TechnologicalOperationIM>
 //    @POST("/api/product/{productId}/processes/{processId}/operations/{operationId}/modes")
 
-    @POST("/api/signin")
-    fun signIn(@Body userData: UserDataDto): Deferred<Response<TokenDto>>
+    @POST("/api/users/check")
+    fun signIn(@Body userData: UserDataDto): Deferred<Response<Boolean>>
 
     //    @DELETE("/api/product/{productId}/processes/{processId}/operations/{operationId}/modes/{operationModeId}")
 //
@@ -115,8 +115,11 @@ interface Api {
 //    @GET("/api/timeline/workcenterservice")
 //
 ////    workcenter
-    @GET("/api/workcenter")
+    @GET("/api/workCenters")
     fun getWorkCenter(): Call<List<WorkCenterDTO>>
+
+    @GET("/api/users")
+    fun getUsers(): Call<List<UserDataDto>>
 
     @GET("/api/workcenter/{workCenterId}")
     fun getWorkCenterById(@Path("workCenterId") workCenterId: Long): Call<WorkCenterDTO>

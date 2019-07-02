@@ -11,6 +11,7 @@ import android.transition.TransitionManager
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.widget.*
+import com.triplepi.projectilemes.App
 import com.triplepi.projectilemes.R
 import com.triplepi.projectilemes.data.network.dto.ScheduleItemDTO
 import com.triplepi.projectilemes.data.network.dto.ScheduleItemWorkCenterDTO
@@ -94,7 +95,7 @@ class MainMenuActivity : MvpActivity<MainMenuView, MainMenuPresenter>(), MainMen
         continueTaskButton.isEnabled = false
         doneTaskButton.isEnabled = false
         status.text = "Новая"
-        LoadScheduleUseCase(workCenterId = scheduleItemWorkCenterDTO?.Id!!).execute { }
+        LoadScheduleUseCase(workCenterId = App.INSTANCE.workCenterID.toLong()).execute { }
         fillSpinner()
         presenter.fillCurrentOperation()
         fillCurrentScheduleItem()

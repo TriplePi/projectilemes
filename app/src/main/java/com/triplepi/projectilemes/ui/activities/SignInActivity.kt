@@ -1,10 +1,15 @@
 package com.triplepi.projectilemes.ui.activities
 
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
+import android.support.annotation.RequiresApi
+import android.util.Log
 import android.widget.*
 import com.triplepi.projectilemes.App
+import com.triplepi.projectilemes.data.network.dto.UserDataDto
 import com.triplepi.projectilemes.data.network.dto.WorkCenterDTO
+import com.triplepi.projectilemes.domain.interactors.LoadUsersUseCase
 import com.triplepi.projectilemes.domain.interactors.LoadWorkcentersUseCase
 import com.triplepi.projectilemes.extensions.bind
 import com.triplepi.projectilemes.mvp.MvpActivity
@@ -13,8 +18,8 @@ import com.triplepi.projectilemes.presentation.SignInView
 
 
 class SignInActivity : MvpActivity<SignInView, SignInPresenter>(), SignInView {
-
-    private val api = App.INSTANCE.api
+    override val users: ArrayList<UserDataDto> = ArrayList()
+    override val workCenters: ArrayList<WorkCenterDTO> = ArrayList()
 
     private val signInButton: Button by bind(com.triplepi.projectilemes.R.id.sign_in)
     private val passwordInput: EditText by bind(com.triplepi.projectilemes.R.id.password)
@@ -25,6 +30,7 @@ class SignInActivity : MvpActivity<SignInView, SignInPresenter>(), SignInView {
     override val password: String
         get() = passwordInput.text.toString()
 
+    @RequiresApi(Build.VERSION_CODES.N)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(com.triplepi.projectilemes.R.layout.activity_signin)
@@ -41,18 +47,19 @@ class SignInActivity : MvpActivity<SignInView, SignInPresenter>(), SignInView {
     }
 
     fun fillSpinners() {
-        val usernameList = listOf("Колотовченко А.И.", "Никитченко В.В.", "Яков Л.Я.")
+        val usernameList = ArrayList<String>()
+        LoadUsersUseCase().execute { x -> x.forEach { y -> users.add(y) } }
+        users.forEach{z->usernameList.add(z.name)}
         val usernameAdapter = ArrayAdapter<String>(
             this,
             android.R.layout.simple_spinner_item, usernameList
         )
         usernameAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        val workCenterList = ArrayList<WorkCenterDTO>()
-        LoadWorkcentersUseCase().execute { x->x.forEach { y->workCenterList.add(y) } }
+        LoadWorkcentersUseCase().execute { x -> x.forEach { y -> workCenters.add(y) } }
         username.adapter = usernameAdapter
-                val workcenterAdapter = ArrayAdapter<String>(
+        val workcenterAdapter = ArrayAdapter<String>(
             this,
-            android.R.layout.simple_spinner_item, workCenterList.map { x->x.Name }
+            android.R.layout.simple_spinner_item, workCenters.map { x -> x.Name }
         )
         workcenterAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         workCenter.adapter = workcenterAdapter
